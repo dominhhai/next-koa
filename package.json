@@ -1,0 +1,39 @@
+{
+  "name": "next-koa",
+  "version": "1.0.0",
+  "description": "Intro to the Koa v2 - the next generation web framework for Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "standard",
+    "test": "standard && workshopper-adventure-test"
+  },
+  "bin": {
+    "next-koa": "./index.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "url": "git+https://github.com/dominhhai/next-koa.git",
+    "type": "git"
+  },
+  "keywords": [
+    "Koajs",
+    "koa v2"
+  ],
+  "author": "Do Minh Hai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dominhhai/next-koa/issues"
+  },
+  "homepage": "https://github.com/dominhhai/next-koa#readme",
+  "devDependencies": {
+    "standard": "^8.4.0",
+    "workshopper-adventure-test": "^1.0.4"
+  },
+  "dependencies": {
+    "koa": "next",
+    "workshopper-adventure": "^5.0.3",
+    "workshopper-exercise": "^2.7.0",
+    "workshopper-wrappedexec": "^0.1.2"
+  }
+}
